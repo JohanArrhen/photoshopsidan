@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;	
+	
+}
+
+#storbox{
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	background-color:red; 	
+	position: absolute;
+}
+
+header{
+	height: 20%;
+	width: 100%;
+	background-color:black;
+	color: white;
+	font-size: 76px;
+	
+}
+header img{
+	height: 100%;
+	width: 60%;
+	overflow: hidden;
+}
+nav{
+	height: 75%;
+	width: 20%;
+	float: left;
+	background-color:rgb(153,153,153);	
+	border: 3px solid black;
+	border-top: 0px;
+	border-bottom:0px;
+	box-sizing:border-box;
+}
+
+article{
+	height: 75%;
+	width: 80%;
+	background-color:rgb(255,255,255);
+	float: left;
+	box-sizing: border-box;
+	border-right: 3px solid black;
+	overflow: auto;
+}
+h1{
+	font-size: 20px;
+	font-family:Arial, Helvetica, sans-serif;	
+	padding: 15px;
+	
+}
+#ansiktsbyte{
+	width: 55%;
+	padding-left: 15px;
+		
+}
+#banner{
+	padding-left: 15px;
+	width: 80%;
+	
+}
+#metro{
+	width: 80%;
+	padding-left: 15px;	
+
+	
+}
+#lank{
+	display: block;
+	padding: 5px;
+	color: white;
+	text-decoration:none;
+	border: 3px solid black;
+	border-radius: 6px;
+	width: 10%;
+	margin: 15px;
+	font-size:24px;
+	font-weight: bold;
+	background-color:rgb(153,153,153);
+		
+}
+#lank:hover{
+	background-color: black;
+		
+}
+
+footer{
+	height: 5%;
+	width: 100%;
+	background-color: black;
+	clear:both;
+
+}
+
+
+ul li{
+	list-style-type: none;
+	text-align: center;
+	
+
+}
+ul li a{
+	display: inline-block;
+	background-color:rgb(153,153,153);
+	float:left;	
+	height: 50px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 10px;
+	border-bottom: 3px solid black;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:20px; 
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.aktiv{
+	background-color: white;
+	color: black;
+	/*border-right: 5px solid red;*/	
+}
+.aktiv:hover{
+	background-color: white;
+	color: black;
+}
+
+ul li a:hover{
+	background-color: black;
+	
+}
+ul li a:hover{
+		
+}
+h2{
+	color: white;
+	text-align:center;
+  	padding-top: 7px;
+}
